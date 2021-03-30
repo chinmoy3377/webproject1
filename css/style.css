@@ -97,14 +97,14 @@ header a:hover{
 
 #showcase h1{
         color: #0a090c;
-        margin: 20px 0px 0px 33.3%;
+        margin: 20px 0px 0px 40%;
         font-size: 50px;
 }
 
 #showcase p{
     color: #585858;
-    margin-left: 33.3%;
-    margin-right: 10%;
+    margin-left: 40%;
+    margin-right: 20%;
     font-size: 15px;
     font-weight:bold;
 }
@@ -312,7 +312,7 @@ aside#sidebar-contact {
     }
 
     #showcase p{
-        margin: 0 0 0 33.3%;
+        margin: 0 0 0 40%;
         font-size: 10px;
     }
 
