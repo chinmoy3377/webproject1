@@ -1,0 +1,341 @@
+body{
+    font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    font: 15 px/1.5 ;
+    padding: 0;
+    margin: 0;
+    background-color: #e2e1e0;
+    color: #0a090c;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    height: 38px;
+    background: #0052cc;
+    color: #fff;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.dark {
+    padding: 30px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Header */
+header{
+    background-color: #0052cc;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffa400 3px solid;
+}
+
+header a{
+    color: #f4f5f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0px 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+
+header #branding h1{
+    margin: 0;
+}
+
+
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #ffa400;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase{
+    min-height: 400px;
+    min-width: 100%;
+    background: url('../img/showcase\ image.svg') no-repeat center 0px;
+    margin-bottom: 0px;
+}
+
+#showcase h1{
+        color: #0a090c;
+        margin: 20px 0px 0px 33.3%;
+        font-size: 50px;
+}
+
+#showcase p{
+    color: #585858;
+    margin-left: 33.3%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+
+/* Newsletter */
+
+#newsletter{
+    padding: 15px;
+    color: #f4f5f7;
+    background: #0a090c;
+    border-bottom: #ffa400 3px solid;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Cards */
+
+#cards{
+    margin-top: 20px;
+}
+
+#cards .card1{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+    }
+
+#cards .card1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+#cards .card2{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+    }
+
+#cards .card2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+#cards .card3{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
+    }
+
+#cards .card3:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+
+#cards .card1 img{
+    width: 90px;
+}
+#cards .card2 img{
+    width: 90px;
+}
+#cards .card3 img{
+    width: 90px;
+}
+
+
+footer{
+    padding: 10px;
+    margin-top: 20px;
+    color: #f4f5f7;
+    background-color: #0a090c;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+/* For About Page */
+
+/* Sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+aside#sidebar h3{
+    color: #ffa400;
+    font-size: 1.5em;
+}
+
+
+/* Main-col article */
+
+article#main-col{
+    float: left;
+    width:65%;
+    text-align: justify;
+    line-height: 20px;
+}
+
+article#main-col h1{
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact-form{
+    padding: 15px;
+}
+
+#conatct-form form{
+    float: right;
+    margin-top: 15px;
+}
+
+#contact-form input[id="email"]{
+    padding: 10px;
+    height: 25px;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#contact-form input[id="name"]{
+    padding: 10px;
+    height: 25px;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#contact-form input[id="message"]{
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+aside#sidebar-contact {
+    float: left;
+    width: 33%;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border: #0052cc 2px solid;
+    border-radius: 5px;
+}
+
+
+/* Media queries */
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form{
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+
+    #showcase h1{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    #showcase p{
+        margin: 0 0 0 33.3%;
+        font-size: 10px;
+    }
+
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #cards .card1, #cards .card2, #cards .card3,
+    article#main-col,
+    aside#sidebar,
+    aside#sidebar-contact{
+        float: none;
+        width: auto;
+        margin: 20px;
+    } 
+
+}
+
+
+
